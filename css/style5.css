@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+	width: 100%;
+	padding: 100px 0px;
+	background: linear-gradient(to right, #bd7aee, #8264e2, #3f49d4);
+}
+.form-box{
+	width: 830px;
+	margin: auto;
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0px 10px 10px 0px rgba(212, 212, 212, 0.2);
+}
+.form-row{
+	display: flex;
+}
+.form-left, .form-right{
+	flex-basis: 50%;
+}
+.img-fluid{
+	max-width: 105%;
+	height: auto;
+	margin-bottom: -5px;
+}
+.right1-content{
+	padding: 80px 30px;
+}
+.right1-content h2{
+	font-weight: 500;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+.right1-content p{
+	font-size: 11px;
+	line-height: 18px;
+	margin-bottom: 32px;
+}
+.right2-content p{
+	font-size: 10px;
+	margin-bottom: 18px;
+}
+.cl{
+	color: #3f49d4;
+	font-weight: 700;
+}
+.cl:hover{
+	color: red;
+	cursor: pointer;
+}
+.form-group{
+	margin: 15px 0px;
+    display: block;
+    width: 100%;
+}
+.form-control{
+	width: 100%;
+	display: block;
+	padding: 8px 4px;
+}
+.form7{
+	font-size: 10px;
+	line-height: 25px;
+	margin-bottom: 28px,
+}
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.f-b-48{
+	flex-basis: 44%;
+}
+.form-control{
+	font-size: 11px;
+}
+.form-control:focus{
+	outline-color: red;
+}
+.form-control:focus::placeholder{
+    color: red;
+}
+.form-group button{
+	background: #3f49d4;
+	color: white;
+	padding: 10.8px 23px;
+	border: none;
+	font-size: 11px;
+	border-radius: 4px;
+	font-family: 'Open Sans', sans-serif;
+}
+.form-group button:hover{
+	background: red;
+	color: white;
+	cursor: pointer;
+}
